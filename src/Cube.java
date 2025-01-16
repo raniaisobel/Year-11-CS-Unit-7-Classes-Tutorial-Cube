@@ -27,6 +27,10 @@ public class Cube {
         return side*side*side;
     }
 
+    public int calculateSurfaceArea(){
+        return 6*(side*side);
+    }
+
     public String toString(){
         return "Cube{side="+side+"}.";
     }
